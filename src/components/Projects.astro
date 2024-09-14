@@ -1,18 +1,15 @@
 ---
 import GitHub from "./icons/GitHub.astro"
-import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
-const TAGS = {
 
-}
 const PROJECTS = [
   {
     title: "Baby Tracker",
     description:
       "Seguimiento de comidas, pañales, biberones, paseos y juegos de tu bebe. Creada desde cero con React + Vite, Redux y MaterialUI",
     github: "https://github.com/JuanJosePetit/baby-tracker",
-    image: "/projects/babycare.webp",
+    image: "/babycare.webp",
     
   },
   {
@@ -20,7 +17,7 @@ const PROJECTS = [
     description:
       "Plataforma que imita el censo uruguayo del 2023. Creada desde cero con Vanilla JavaScript, HTML y CSS",
     github: "https://github.com/JuanJosePetit/censos-uruguay",
-    image: "/projects/censos2023.webp",
+    image: "/censos2023.webp",
     
   },
   {
@@ -28,7 +25,7 @@ const PROJECTS = [
     description:
       "Pagina estatica sobre espadas japonesas, creada desde cero con HTML y Boostrap",
     github: "https://github.com/JuanJosePetit/Katana-Raifusutairu",
-    image: "/projects/katana.webp",
+    image: "/katana.webp",
     
   },
 ]
@@ -40,7 +37,7 @@ const PROJECTS = [
     <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
   <div class="w-full md:w-1/2">
     <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
-      <img alt="Recién llegado vs 5 años en Nueva Zelanda" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+      <img alt="Captura de la pagina web" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
     </div>
   </div>
 
